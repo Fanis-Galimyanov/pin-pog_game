@@ -1,0 +1,76 @@
+/* CSS Document */
+
+html, body
+{
+margin:0;
+overflow:hidden; 
+		/* Свойство overflow управляет 
+		отображением содержания блочного элемента, если оно целиком не помещается и 
+		выходит за область заданных размеров.
+		hidden Отображается только область внутри элемента, остальное будет скрыто*/
+}
+body
+{
+background:green;	
+}
+#circle
+{
+  background-color: pink;
+  height: 50px;   
+  width: 50px;
+  left: 50px;
+  top: 50px;
+  border-radius: 50%;
+  position: absolute;
+  
+}
+
+#blueRect
+{
+        width:200px;
+        height:50px;
+        background-color:blue;
+        margin-left: 40%;
+      margin-Top: 50px;
+	   border-radius: 10px;
+    }
+/* CSS Document */
+
+#t1 {
+	color: blue;
+	width: 100px;
+   border: 1px solid black;
+   border-radius: 5px;
+   border: none;
+    font-size: 70px;   
+	background:none;
+	 margin-left: 100px;
+	 margin-top: 300px;
+	
+}
+
+
+#t2 {
+	color: blue;
+	width: 100px;
+   border: 1px solid black;
+   border-radius: 5px;
+   border: none;
+    font-size: 70px;   
+	background:none;
+	 margin-left: 700px;
+	 margin-top: 300px;
+}
+
+#blueRect2
+{
+        width:200px;
+        height:50px;
+        background-color:blue;
+        margin-left: 40%;
+      margin-Top: 550px;
+	   border-radius: 10px;
+    }
+
+  
+  
